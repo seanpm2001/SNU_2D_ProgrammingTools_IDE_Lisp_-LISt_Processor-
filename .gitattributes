@@ -32,10 +32,14 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
-# BitBake source file
-*.bb linguist-detectable=true
-*.bb linguist-documentation=false
-*.bb linguist-language=BitBake
+# LISP source file
+# Not recognized by GitHub, common lisp used as a placeholder for now
+*.lsp linguist-detectable=true
+*.lsp linguist-documentation=false
+*.lsp linguist-language=Common-Lisp
+*.lisp linguist-detectable=true
+*.lisp linguist-documentation=false
+*.lisp linguist-language=Common-Lisp
 # JSON (JavaScript Object Notation) source file
 *.json linguist-detectable=false
 *.json linguist-documentation=false
@@ -170,10 +174,11 @@
 # *.roff linguist-detectable=false
 # *.roff linguist-documentation=false
 # *.roff linguist-language=Roff
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 2 (2022, Tuesday, August 30th at 2:34 pm PST)
-# Line count (including blank lines and compiler line): 180
+# File type: gitattributes file (*.gitattributes)
+# File version: 3 (2022, Thursday, November 3rd at 5:39 pm PST)
+# Line count (including blank lines and compiler line): 185
 # End of script
